@@ -42,6 +42,7 @@ def predict(message):
 # print(result) # Print the prediction result
 # print(predict("Congratulations! You've won a $1000 Walmart gift card. Click here to claim your prize."))
 
+st.set_page_config(page_title="Spam Detection Tester", page_icon="🤖")
 st.header("Spam Detection Tester (By Sidman)") # Title of the web app
 st.write("Type the email text body below to find out if it’s Spam or Not Spam!")
 input_mess = st.text_area("Enter your message:", height=150)# Input box for user to enter a message
